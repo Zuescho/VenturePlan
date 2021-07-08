@@ -352,9 +352,45 @@ T.KnownSpells = {
 	[303]={type="nuke", target="enemy-back", damageATK=25},
 
 	--New values for 9.1
-	--Contributors: TekGoNos, Zhavvorsa, Gaboros, Sehra, Ostjaevel, Ashmelev, Dphennessy
+	--Contributors: TekGoNos, Zhavvorsa, Gaboros, Sehra, Ostjaevel, Ashmelev, Dphennessy, Simca
 	[305]={type="nuke", target="enemy-back", damageATK=120}, --Roots of Submission
+	[306]={type="aura", target=3, duration=3, modMaxHP=60, plusDamageDealtATK=40}, --Arcane Empowerment (UNVERIFIED)
+	[307]={type="nuke", target="cone", damageATK=160}, --Fist of Nature (UNVERIFIED)
+	[308]={type="nuke", target=1, damageATK=350, firstTurn=3}, --Spore of Doom (UNVERIFIED)
+	[309]={
+		{type="heal", target="all-allies", healATK=200},
+		{type="aura", target="all-allies", duration=1, modDamageDealt=30},
+	}, --Threads of Fate (UNVERIFIED)
+	[310]={
+		{type="nuke", target=0, damageATK=140},
+		{type="aura", target=4, duration=1, modDamageDealt=20},
+	}, --Axe of Determination (UNVERIFIED)
+	[311]={
+		{type="heal", target=3, healATK=120},
+		{type="aura", target=3, duration=2, modMaxHP=40},
+	}, --Wings of Mending (UNVERIFIED)
+	[312]={type="nuke", target="cone", damageATK=180}, --Panoptic Beam (UNVERIFIED)
+	[313]={type="heal", target="all-allies", healATK=70}, --Spirit's Guidance (UNVERIFIED)
+	[314]={
+		{type="heal", target=3, healATK=130},
+		{type="aura", target=3, duration=2, plusDamageDealtATK=50},
+	}, --Purifying Light (UNVERIFIED)
 	[315]={type="aura", target=1, damageATK1=150, duration=2, modDamageDealt=-30}, --Resounding Message
+	[316]={type="nuke", target=0, damageATK=100, selfHealATK=30}, --Self Replication (UNVERIFIED)
+	[317]={type="aura", target="enemy-front", duration=1, damageATK1=150, plusDamageTakenATK=30}, --Shocking Fist (UNVERIFIED)
+	[318]={type="aura", target="all-allies", duration=3, plusDamageDealtATK=50}, --Inspiring Howl (UNVERIFIED)
+	[319]={type="aura", target="enemy-front", duration=3, damageATK1=80, damageATK=50, noFirstTick=true}, --Shattering Blows (UNVERIFIED)
+	[320]={type="nuke", target="enemy-back", damageATK=100}, --Hailstorm (UNVERIFIED)
+	[321]={type="heal", target=3, healATK=200}, --Adjustment (UNVERIFIED)
+	[322]={
+		{type="nuke", target=0, damageATK=80, selfHealATK=80},
+		{type="aura", target=4, duration=1, modMaxHP=80},
+	}, --Balance In All Things (UNVERIFIED)
+	[323]={
+		{type="nuke", target="enemy-back", damageATK=40},
+		{type="aura", target="enemy-back", duration=2, modDamageDealt=-10},
+	}, --Anima Shatter (UNVERIFIED)
+	[324]={type="heal", target="friend-surround", healATK=120}, --Protective Parasol (UNVERIFIED)
 	[325]={type="aura", target="friend-surround", duration=2, modDamageDealt=60}, --Vision of Beauty
 	[326]={type="nuke", target="cleave", damageATK=25}, --Shiftless Smash
 	[327]={type="aura", target="all-other-allies", duration=3, plusDamageDealtATK=20}, --Inspirational Teachings
@@ -370,6 +406,7 @@ T.KnownSpells = {
 	[337]={type="aura", target=1, duration=4, damageATK1=200, damageATK=40, noFirstTick=true}, --Wavebender's Tide
 	[338]={type="nuke", target=0, damageATK=50}, --Scallywag Slash
 	[339]={type="nuke", target="all-enemies", damageATK=120, firstTurn=3}, --Cannon Barrage
+	[340]={type="nuke", target=1, damageATK=60}, --Tainted Bite (UNVERIFIED)
 	[341]={type="aura", target=1, damageATK1=120, duration=3, plusDamageTakenATK=20}, --Tainted Bite
 	[342]={type="aura", target=0, damageATK1=100, duration=2, plusDamageDealtATK=-70}, --Regurgitated Meal
 	[343]={
