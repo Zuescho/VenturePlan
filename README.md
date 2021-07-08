@@ -6,3 +6,5 @@ This is an in progress 9.1 update for the famous World of Warcraft addon called 
 It only contains the mission because I'm not sure I can publish the whole add-on. You need to copy and overwrite the vs-spells.lua in the original addon.
 
 Feel free to upload images for missions, reviews, issues, and new values. Let me know if you need contributor rights, I'm glad to provide as much as my free account lets.
+
+Contributors: TekGoNos, Zhavvorsa, Sehra, Ostjaevel, Ashmelev, Dphennessy, Gaboros
