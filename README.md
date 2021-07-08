@@ -6,6 +6,6 @@ This is an in progress 9.1 update (attempt) for the famous World of Warcraft add
 
 Please note that the values are not validated ATM and it's heavily work in progress.
 
-Feel free to upload images for missions, reviews, issues, and new values. Let me know if you need contributor rights, I'm glad to provide it.
+Feel free to upload images for abilities, reviews, issues, and new values. Let me know if you need contributor rights, I'm glad to provide it.
 
 Contributors: TekGoNos, Zhavvorsa, Sehra, Ostjaevel, Ashmelev, Dphennessy, Gaboros
