@@ -383,4 +383,5 @@ T.KnownSpells = {
 		{type="aura", target=1, duration=3, modDamageTaken=24},
 	},
 	[347]={type="nuke", target="cone", damageATK=100},
+	[325]={type="aura", target="friend-surround", duration=2, modDamageDealt=60}, --Vision of Beauty
 }
