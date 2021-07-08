@@ -352,8 +352,8 @@ T.KnownSpells = {
 	[303]={type="nuke", target="enemy-back", damageATK=25},
 
 	--New values for 9.1
-	--Contributors: TekGoNos, Zhavvorsa, Gaboros, Sehra
-	[305]={type="nuke", target="enemy-back" ,damageATK=120},
+	--Contributors: TekGoNos, Zhavvorsa, Gaboros, Sehra, Ostjaevel, Ashmelev
+	[305]={type="nuke", target="enemy-back", damageATK=120},
 	[315]={type="aura", target=1, damageATK1=150, duration=2, modDamageDealt=-30},
 	[326]={type="nuke", target="cleave", damageATK=25},
 	[327]={type="aura", target="all-other-allies", duration=3, plusDamageDealtATK=20},
@@ -377,4 +377,6 @@ T.KnownSpells = {
 	[345]={type="aura", target="all-allies" , duration=3 , modDamageTaken=-30},
 	[346]={type="aura", target=0, duration=2, damageATK1=30, modDamageDealt=-1},
 	[349]={type="nuke", target="all-enemies", damageATK=8},
+	[332]={type="nuke", target=1, damageATK=150},
+	[347]={type="nuke", target="cone", damageATK=204},
 }
