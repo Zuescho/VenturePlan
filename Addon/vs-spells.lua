@@ -360,7 +360,7 @@ T.KnownSpells = {
 	[327]={type="aura", target="all-other-allies", duration=3, plusDamageDealtATK=20}, --Inspirational Teachings
 	[328]={type="nuke", target=0, damageATK=30}, --Applied Lesson
 	[329]={type="aura", target=4, modDamageTaken=-50, duration=3}, --Muscle Up
-	[330]={type="aura", target="all-allies", duration=2, plusDamageDealtATK=25}, --Oversight
+	[330]={type="aura", target="all-allies", duration=2, plusDamageDealtATK=20}, --Oversight
 	[331]={type="aura", target="all-other-allies", plusDamageDealtATK=20, duration=3}, --Supporting Fire
 	[332]={type="nuke", target=1, damageATK=150}, --Emptied Mug
 	[333]={type="aura", target=4, duration=3, modDamageDealt=40}, --Overload
