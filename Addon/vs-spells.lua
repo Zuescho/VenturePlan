@@ -414,12 +414,12 @@ T.KnownSpells = {
 		{type="aura", target=4, duration=1, modDamageDealt=20},
 	}, --Sharptooth Snarl
 	[344]={type="nuke", target="all-enemies", damageATK=30}, --Razorwing Buffet
-	[345]={type="aura", target="all-allies" , duration=3 , modDamageTaken=-30}, --Protective Wings
-	[346]={type="aura", target=0, duration=2, damageATK1=30, modDamageDealt=-1}, --Heel Bite
+	[345]={type="aura", target="all-allies" , duration=3 , plusDamageTakenATK=-30}, --Protective Wings (Bugged in data maybe? Description wording applies modDamageDealt.)
+	[346]={type="aura", target=0, duration=2, damageATK1=30, plusDamageDealtATK=1}, --Heel Bite (BUGGED: Should be modDamageDealt=-1. It isn't.)
 	[347]={type="nuke", target="cone", damageATK=100}, --Darkness from Above
 	[348]={
 		{type="nuke", target=1, damageATK=120},
-		{type="aura", target=1, duration=3, modDamageTaken=24},
+		{type="aura", target=1, duration=3, plusDamageTakenATK=20},
 	}, --Tainted Bite
-	[349]={type="nuke", target="all-enemies", damageATK=8}, --Anima Swell
+	[349]={type="nuke", target="all-enemies", damageATK=10}, --Anima Swell
 }
