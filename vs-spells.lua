@@ -352,7 +352,7 @@ T.KnownSpells = {
 	[303]={type="nuke", target="enemy-back", damageATK=25},
 
 	--New values for 9.1
-	--Contributors: TekGoNos, Zhavvorsa, Gaboros
+	--Contributors: TekGoNos, Zhavvorsa, Gaboros, Sehra
 	[305]={type="nuke", target="enemy-back" ,damageATK=120},
 	[315]={type="aura", target=1, damageATK1=150, duration=2, modDamageDealt=-30},
 	[326]={type="nuke", target="cleave", damageATK=25},
@@ -368,6 +368,10 @@ T.KnownSpells = {
 	[337]={type="aura", target=1, duration=4, damageATK1=200, damageATK=40, noFirstTick=true},
 	[338]={type="nuke", target=0, damageATK=50},
 	[339]={type="nuke", target="all-enemies", damageATK=120, firstTurn=3},
+	[343]={
+		{type="nuke", target="enemy-front", damageATK=80},
+		{type="aura", target=4, duration=1, modDamageDealt=20},
+	},
 	[345]={type="aura", target="all-allies" , duration=3 , modDamageTaken=-30},
 	[346]={type="aura", target=0, duration=2, damageATK1=30, modDamageDealt=-1},
 	[349]={type="nuke", target="all-enemies", damageATK=8},
