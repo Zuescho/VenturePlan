@@ -352,22 +352,23 @@ T.KnownSpells = {
 	[303]={type="nuke", target="enemy-back", damageATK=25},
 
 	--New values for 9.1
-	--TekGoNos
+	--Contributors: TekGoNos, Zhavvorsa, Gaboros
+	[305]={type="nuke", target="enemy-back" ,damageATK=120},
+	[315]={type="aura", target=1, damageATK1=150, duration=2, modDamageDealt=-30},
 	[326]={type="nuke", target="cleave", damageATK=25},
+	[327]={type="aura", target="all-other-allies", duration=3, plusDamageDealtATK=20},
+	[328]={type="nuke", target=0, damageATK=30},
 	[329]={type="aura", target=4, modDamageTaken=-50, duration=3},
+	[330]={type="aura", target=4, duration=2, plusDamageDealtATK=25},
+	[331]={type="aura", target="all-allies", plusDamageDealtATK=23, duration=3},
+	[333]={type="aura", target=4, duration=3, modDamageDealt=40},
+	[334]={type="nuke", target=0, damageATK=90},
+	[335]={type="nuke", target="enemy-back", damageATK=40},
 	[336]={type="heal", target=3, healATK=80},
 	[337]={type="aura", target=1, duration=4, damageATK1=200, damageATK=40, noFirstTick=true},
 	[338]={type="nuke", target=0, damageATK=50},
 	[339]={type="nuke", target="all-enemies", damageATK=120, firstTurn=3},
-	--Zhavvorsa
-	[327]={type="aura", target="all-other-allies", duration=3, plusDamageDealtATK=47},
-	[328]={type="nuke", target=0, damageATK=35},
-	[329]={type="aura", target=4, modDamageTaken=-50, duration=3},
-	[330]={type="aura", target=4, duration=2, plusDamageDealtATK=25},
-	[333]={type="aura", target=4, duration=3, modDamageDealt=124},
-	[334]={type="nuke", target=0, damageATK=55},
-	[335]={type="nuke", target="enemy-back", damageATK=49},
-	--Gaboros
+	[345]={type="aura", target="all-allies" , duration=3 , modDamageTaken=-30},
+	[346]={type="aura", target=0, duration=2, damageATK1=30, modDamageDealt=-1},
 	[349]={type="nuke", target="all-enemies", damageATK=8},
-	[331]={type="aura", target="all-allies", plusDamageDealtATK=23, duration=3},
 }
