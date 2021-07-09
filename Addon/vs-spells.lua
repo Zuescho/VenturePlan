@@ -408,7 +408,10 @@ T.KnownSpells = {
 	[339]={type="nuke", target="all-enemies", damageATK=120, firstTurn=3}, --Cannon Barrage
 	[340]={type="nuke", target=1, damageATK=60}, --Tainted Bite (UNVERIFIED)
 	[341]={type="aura", target=1, damageATK1=120, duration=3, plusDamageTakenATK=20}, --Tainted Bite (UNVERIFIED)
-	[342]={type="aura", target=0, damageATK1=100, duration=2, plusDamageDealtATK=-70}, --Regurgitated Meal (UNVERIFIED)
+	[342]={
+		{type="nuke", target=0, damageATK=100},
+		{type="aura", target=0, duration=2, plusDamageDealtATK=-70},
+	}, --Regurgitated Meal
 	[343]={
 		{type="nuke", target="enemy-front", damageATK=80},
 		{type="aura", target=4, duration=1, modDamageDealt=20},
@@ -420,6 +423,6 @@ T.KnownSpells = {
 	[348]={
 		{type="nuke", target=1, damageATK=120},
 		{type="aura", target=1, duration=3, plusDamageTakenATK=20},
-	}, --Tainted Bite (UNVERIFIED)
+	}, --Tainted Bite
 	[349]={type="nuke", target="all-enemies", damageATK=10}, --Anima Swell
 }

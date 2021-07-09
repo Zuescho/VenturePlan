@@ -10,4 +10,4 @@ Feel free to upload images for abilities, reviews, issues, and new values. Let m
 
 Submit your logs here: https://www.dropbox.com/request/17UUZT5LblGLtOb6Ji1G
 
-Contributors: TekGoNos, Zhavvorsa, Sehra, Ostjaevel, Ashmelev, Dphennessy, DepthNo7705, Gaboros
+Contributors: TekGoNos, Zhavvorsa, Sehra, Ostjaevel, Ashmelev, Dphennessy, DepthNo7705, jscharnitzke, Gaboros
