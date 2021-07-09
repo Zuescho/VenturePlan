@@ -407,7 +407,7 @@ T.KnownSpells = {
 	[338]={type="nuke", target=0, damageATK=50}, --Scallywag Slash
 	[339]={type="nuke", target="all-enemies", damageATK=120, firstTurn=3}, --Cannon Barrage
 	[340]={type="nuke", target=1, damageATK=60}, --Tainted Bite (UNVERIFIED)
-	[341]={type="aura", target=1, damageATK1=120, duration=3, plusDamageTakenATK=20}, --Tainted Bite (UNVERIFIED)
+	[341]={type="aura", target=1, damageATK1=120, duration=3, plusDamageTakenATK=20}, --Tainted Bite
 	[342]={
 		{type="nuke", target=0, damageATK=100},
 		{type="aura", target=0, duration=2, plusDamageDealtATK=-70},
