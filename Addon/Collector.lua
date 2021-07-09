@@ -199,7 +199,7 @@ function T.ExportMissionReports()
 	for i=1,VP_MissionReports and #VP_MissionReports or 0 do
 		s = (i > 1 and s .. "\n" or "") .. VP_MissionReports[i][1]
 	end
-	return (s:gsub(("."):rep(72), "%0 "):gsub(" ?$", ".", 1))
+	return s
 end
 function T.GetMissionReportInfo(mid)
 	if mid == LR_MissionID then
