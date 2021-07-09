@@ -16,6 +16,6 @@ Contributors: TekGoNos, Zhavvorsa, Sehra, Ostjaevel, Ashmelev, Dphennessy, Depth
 
 # Installation
 
-You can use an addon manager like WoWUp. You only need to link the repo and it will install the latest release.
+You can use an addon manager like [WowUP](https://wowup.io/). You only need to link the repo and it will install the latest release.
 
 You can also install manually by coping everything from the addon folder into \Interface\Addons\VenturePlan folder.
