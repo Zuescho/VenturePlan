@@ -17,6 +17,7 @@
 ## SavedVariables: VP_MissionReports
 ## SavedVariablesPerCharacter: VP_SPC
 Libs/Evie.lua
+libs\LibParse\LibParse.lua
 Locale.lua
 Util.lua
 Widgets.lua
