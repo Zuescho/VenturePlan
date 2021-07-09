@@ -402,7 +402,7 @@ T.KnownSpells = {
 	[333]={type="aura", target=4, duration=3, modDamageDealt=40}, --Overload
 	[334]={type="nuke", target=0, damageATK=90}, --Hefty Package
 	[335]={type="nuke", target="enemy-back", damageATK=40}, --Errant Package
-	[336]={type="heal", target=3, healATK=80}, --Evidence of Wrongdoing (UNVERIFIED)
+	[336]={type="heal", target=3, healATK=80}, --Evidence of Wrongdoing
 	[337]={type="aura", target=1, duration=4, damageATK1=200, damageATK=40, noFirstTick=true}, --Wavebender's Tide
 	[338]={type="nuke", target=0, damageATK=50}, --Scallywag Slash
 	[339]={type="nuke", target="all-enemies", damageATK=120, firstTurn=3}, --Cannon Barrage
