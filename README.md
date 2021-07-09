@@ -8,4 +8,6 @@ Please note that the values are not validated ATM and it's heavily work in progr
 
 Feel free to upload images for abilities, reviews, issues, and new values. Let me know if you need contributor rights, I'm glad to provide it.
 
+Submit your logs here: https://www.dropbox.com/request/17UUZT5LblGLtOb6Ji1G
+
 Contributors: TekGoNos, Zhavvorsa, Sehra, Ostjaevel, Ashmelev, Dphennessy, DepthNo7705, Gaboros
