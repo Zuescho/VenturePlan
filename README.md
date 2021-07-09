@@ -13,3 +13,9 @@ If you don't have a github account you can also join to the discord server and l
 Please if you want to upload logs do it on discord!
 
 Contributors: TekGoNos, Zhavvorsa, Sehra, Ostjaevel, Ashmelev, Dphennessy, DepthNo7705, jscharnitzke, Gaboros
+
+# Installation
+
+You can use an addon manager like WoWUp. You only need to link the repo and it will install the latest release.
+
+You can also install manually by coping everything from the addon folder into \Interface\Addons\VenturePlan folder.
