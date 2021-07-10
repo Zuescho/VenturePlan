@@ -176,6 +176,7 @@ function EV:GARRISON_MISSION_COMPLETE_RESPONSE(mid, _canCom, _suc, _bonusOK, _fo
 	if ok then
 		local novel, nok, predictionCorrect = isNovelLog(combatResult, checkpoints)
 		combatResult.predictionCorrect = predictionCorrect
+		combatResult.addonVersion = GetAddOnMetadata("VenturePlan", "Version")
 		local combatResultString = serialize(combatResult)
 		VP_MissionReports = VP_MissionReports or {}
 		VP_MissionReports[findReportSlot(VP_MissionReports, combatResultString, novel)] = { combatResultString, ts= combatResult.meta.ts, novel=novel}
@@ -191,9 +192,9 @@ function T.GetMissionReportCount()
 	return type(VP_MissionReports) == "table" and #VP_MissionReports or 0
 end
 function T.ExportMissionReports()
-	local missionReportString = "Version: " .. GetAddOnMetadata("VenturePlan", "Version")
+	local missionReportString = ""
 	for i=1,VP_MissionReports and #VP_MissionReports or 0 do
-		missionReportString = missionReportString .. "\n" .. VP_MissionReports[i][1]
+		missionReportString = (i > 1 and missionReportString .. "\n" or "") .. VP_MissionReports[i][1]
 	end
 	return missionReportString
 end
