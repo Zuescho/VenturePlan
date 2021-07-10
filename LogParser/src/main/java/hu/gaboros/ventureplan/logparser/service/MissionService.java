@@ -8,9 +8,13 @@ import org.springframework.stereotype.Service;
 @AllArgsConstructor
 public class MissionService {
 
-    private final MissionRepository missionRepository;
+  private final MissionRepository missionRepository;
 
-    public void save(MissionReport missionReport) {
-        missionRepository.save(missionReport);
+  public void save(MissionReport missionReport) {
+    // This will be slow...
+    Long id = missionRepository.findIdByLogContent(missionReport.getLogContent());
+    if (id == null) {
+      missionRepository.save(missionReport);
     }
+  }
 }
