@@ -1,4 +1,4 @@
-create view percentage_of_failure as
+create view bad_predictions_by_versions as
 select all_missions.addon_version,
        all_missions.count                                 as all_missions,
        bad_predictions.count                              as bad_predictions,
