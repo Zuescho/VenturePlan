@@ -1,6 +1,6 @@
 ## Interface: 90100
 ## Title: Venture Plan
-## Version: 5.2-beta
+## Version: 5.3-beta
 ## Notes: Interface improvements for Adventures.
 ## Notes-deDE: Verbesserungen der Benutzeroberfläche für den Befehlstisch.
 ## Notes-esES: Mejoras de la interfaz para las aventuras.
