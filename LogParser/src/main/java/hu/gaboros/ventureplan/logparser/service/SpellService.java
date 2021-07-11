@@ -5,15 +5,23 @@ import hu.gaboros.ventureplan.logparser.model.entity.SpellEntity;
 import hu.gaboros.ventureplan.logparser.model.json.*;
 import hu.gaboros.ventureplan.logparser.repository.SpellRepository;
 import hu.gaboros.ventureplan.logparser.util.HashUtil;
-import lombok.AllArgsConstructor;
+import org.apache.tika.langdetect.OptimaizeLangDetector;
+import org.apache.tika.language.detect.LanguageResult;
 import org.springframework.stereotype.Service;
 
 @Service
-@AllArgsConstructor
 public class SpellService {
 
   private final SpellRepository spellRepository;
   private final SpellMapper spellMapper;
+  private final OptimaizeLangDetector languageDetector;
+
+  public SpellService(SpellRepository spellRepository, SpellMapper spellMapper) {
+    this.spellRepository = spellRepository;
+    this.spellMapper = spellMapper;
+    this.languageDetector = new OptimaizeLangDetector();
+    this.languageDetector.loadModels();
+  }
 
   public Long save(MissionReport missionReport) {
     Long numberOfNewSpells = 0L;
@@ -36,6 +44,10 @@ public class SpellService {
   }
 
   private boolean saveSpell(Spell spell, Creature creature, boolean isEnemy) {
+    if (!isEnglish(spell)) {
+      return false;
+    }
+
     long id = HashUtil.createHash(spell.getName());
 
     boolean exists = spellRepository.existsById(id);
@@ -51,5 +63,10 @@ public class SpellService {
       return true;
     }
     return false;
+  }
+
+  private boolean isEnglish(Spell spell) {
+    LanguageResult languageResult = languageDetector.detect(spell.getDescription());
+    return languageResult.getLanguage() != null && languageResult.isLanguage("en");
   }
 }
