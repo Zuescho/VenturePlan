@@ -322,7 +322,6 @@ T.KnownSpells = {
 	[275]={type="aura", target=3, modDamageDealt=75, duration=2},
 	[276]={type="aura", target=1, duration=1, damageATK1=25, damageATK=50, echo=3},
 	[277]={type="aura", target=4, duration=2, modDamageDealt=100},
-	[277]={type="aura", target=4, duration=2, modDamageDealt=100},
 	[278]={type="aura", target=1, duration=2, modDamageTaken=50},
 	[279]={type="nuke", target="enemy-back", damageATK=50},
 	[280]={type="nuke", target="enemy-front", damageATK=250},
