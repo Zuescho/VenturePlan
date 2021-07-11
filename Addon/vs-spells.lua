@@ -116,9 +116,9 @@ T.KnownSpells = {
 	[105]={type="passive", target="all-allies", modDamageTaken=-10},
 	[106]={type="nuke", target="cleave", damageATK=40},
 	[107]={
-		{type="aura", target="all-enemies", damageATK=40, duration=4, nore=true},
-		{type="aura", target=0, plusDamageTakenATK=30, duration=3},
-	},
+		{type="aura", target=0, duration=4, damageATK=150, nore=true},
+		{type="aura", target=0, duration=3, plusDamageTakenATK=50},
+	}, -- Volatile Solvent (UNVERIFIED)
 	[108]={
 		{type="heal", target=3, healATK=40},
 		{type="aura", target=3, modMaxHP=10, duration=2},
@@ -227,7 +227,7 @@ T.KnownSpells = {
 	[197]={type="heal", target="friend-surround", healATK=55},
 	[198]={type="aura", target=4, duration=2, thornsATK=60, plusDamageTakenATK=-60},
 	[199]={type="nuke", target="enemy-front", damageATK=100},
-	[200]={type="aura", target=0, damageATK=100, modDamageDealt=-50, duration=1},
+	[200]={type="aura", target="enemy-front", duration=1, damageATK=100, modDamageDealt=-50},
 	[201]={type="nuke", target="enemy-back", damageATK=200},
 	[202]={type="taunt", target="all-enemies", duration=2},
 	[203]={type="nuke", target="enemy-front", damageATK=100},
