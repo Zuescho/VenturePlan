@@ -10,5 +10,5 @@ select description,
        creature_name,
        creature_attack,
        is_enemy
-from spell
+from spell where is_english = true
 order by auto_combat_spell_id asc;
