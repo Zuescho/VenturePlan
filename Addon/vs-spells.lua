@@ -116,7 +116,7 @@ T.KnownSpells = {
 	[105]={type="passive", target="all-allies", modDamageTaken=-10},
 	[106]={type="nuke", target="cleave", damageATK=40},
 	[107]={
-		{type="aura", target=0, duration=4, damageATK=150, nore=true},
+		{type="nuke", target=0, damageATK=150},
 		{type="aura", target=0, duration=3, plusDamageTakenATK=50},
 	}, -- Volatile Solvent (UNVERIFIED)
 	[108]={
@@ -136,7 +136,7 @@ T.KnownSpells = {
 	[119]={type="nuke", target="cone", damageATK=100},
 	[120]={type="aura", target="random-enemy", modDamageDealt=50, duration=2},
 	[121]={type="aura", target="all-enemies", modDamageDealt=-50, duration=1},
-	[122]={type="nop"},
+	[122]={type="aura", target="random-enemy", duration=3, damageATK=10},
 	[123]={type="heal", target="friend-front-soft", healATK=30},
 	[124]={type="nuke", target="cleave", damageATK=60},
 	[125]={type="nuke", target="random-enemy", damageATK=60},
