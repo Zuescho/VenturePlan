@@ -43,8 +43,7 @@ public class VentureplanLogparserApplication {
           while ((mission = br.readLine()) != null) {
             try {
               MissionReport missionReport = mapper.readValue(mission, new TypeReference<>() {});
-              missionReport.setLogContent(mission);
-              boolean newLogCreated = missionService.save(missionReport);
+              boolean newLogCreated = missionService.save(missionReport, mission);
               parsedLogs++;
               if (newLogCreated) {
                 newLogs++;

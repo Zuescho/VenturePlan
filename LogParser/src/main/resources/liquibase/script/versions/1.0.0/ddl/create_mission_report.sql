@@ -1,6 +1,7 @@
 create table mission_report
 (
     id                 bigint not null,
+    hash               bigint,
     addon_version      varchar(255),
     log_content        longtext,
     mission_id         bigint,
