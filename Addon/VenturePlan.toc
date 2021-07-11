@@ -16,7 +16,7 @@
 ## X-Website: https://www.townlong-yak.com/addons/venture-plan
 ## SavedVariables: VP_MissionReports
 ## SavedVariablesPerCharacter: VP_SPC
-## Contributors: TekGoNos, Zhavvorsa, Sehra, Ostjaevel, Ashmelev, Dphennessy, DepthNo7705, jscharnitzke, Gaboros
+## Contributors: TekGoNos, Zhavvorsa, PositiveKoodoo, Sehra, Ostjaevel, Ashmelev, Dphennessy, Simca, Legenjerry, Gaboros and many other who posted logs
 Libs/Evie.lua
 libs\LibParse\LibParse.lua
 Locale.lua
