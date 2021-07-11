@@ -10,11 +10,13 @@ public class MissionService {
 
   private final MissionRepository missionRepository;
 
-  public void save(MissionReport missionReport) {
+  public boolean save(MissionReport missionReport) {
     // This will be slow...
     Long id = missionRepository.findIdByLogContent(missionReport.getLogContent());
     if (id == null) {
       missionRepository.save(missionReport);
+      return true;
     }
+    return false;
   }
 }
