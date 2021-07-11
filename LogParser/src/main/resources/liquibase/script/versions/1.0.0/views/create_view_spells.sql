@@ -1,6 +1,6 @@
 create view spells as
 select description,
-       auto_combat_spell_id,
+       auto_combat_spell_id as spell_id,
        duration,
        name,
        has_thorns_effect,
