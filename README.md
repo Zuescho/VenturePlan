@@ -12,7 +12,7 @@ If you don't have a github account you can also join to the discord server and l
 
 Please if you want to upload logs do it on discord!
 
-Contributors: TekGoNos, Zhavvorsa, PositiveKoodoo, Sehra, Ostjaevel, Ashmelev, Dphennessy, Simca, Legenjerry, Dastey, Gaboros and many other who posted logs
+Contributors: TekGoNos, Zhavvorsa, PositiveKoodoo, Sehra, Ostjaevel, Ashmelev, Dphennessy, Simca, Legenjerry, Dastey, Zealvurte, LostTemple1990, Gaboros and many other who posted logs
 
 # Installation
 
