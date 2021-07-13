@@ -353,7 +353,7 @@ T.KnownSpells = {
 
 	--New values for 9.1
 	[305]={type="nuke", target="enemy-back", damageATK=120}, --Roots of Submission
-	[306]={type="aura", target=3, duration=3, modMaxHP=60, plusDamageDealtATK=40}, --Arcane Empowerment (UNVERIFIED)
+	[306]={type="aura", target=3, duration=3, modMaxHPATK=60, plusDamageDealtATK=40}, --Arcane Empowerment (UNVERIFIED)
 	[307]={type="nuke", target="cone", damageATK=160}, --Fist of Nature (UNVERIFIED)
 	[308]={type="nuke", target=1, damageATK=350, firstTurn=3}, --Spore of Doom (UNVERIFIED)
 	[309]={
@@ -366,7 +366,7 @@ T.KnownSpells = {
 	}, --Axe of Determination (UNVERIFIED)
 	[311]={
 		{type="heal", target=3, healATK=120},
-		{type="aura", target=3, duration=2, modMaxHP=40},
+		{type="aura", target=3, duration=2, modMaxHPATK=40},
 	}, --Wings of Mending (UNVERIFIED)
 	[312]={type="nuke", target="cone", damageATK=180}, --Panoptic Beam (UNVERIFIED)
 	[313]={type="heal", target="all-allies", healATK=70}, --Spirit's Guidance (UNVERIFIED)
@@ -383,7 +383,7 @@ T.KnownSpells = {
 	[321]={type="heal", target=3, healATK=200}, --Adjustment (UNVERIFIED)
 	[322]={
 		{type="nuke", target=0, damageATK=80, selfHealATK=80},
-		{type="aura", target=4, duration=1, modMaxHP=80},
+		{type="aura", target=4, duration=1, modMaxHPATK=80},
 	}, --Balance In All Things (UNVERIFIED)
 	[323]={
 		{type="nuke", target="enemy-back", damageATK=40},
