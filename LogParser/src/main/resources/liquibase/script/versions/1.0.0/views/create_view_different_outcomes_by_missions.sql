@@ -1,7 +1,6 @@
 create view different_outcomes_by_missions as
 select distinct different_outcome.mission_id,
                 different_outcome.different_outcome,
-                different_outcome.addon_version,
                 english_report.mission_name
 from (select mission_id,
              count(mission_id) as different_outcome,
