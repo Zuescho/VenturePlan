@@ -20,7 +20,7 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 public class VentureplanLogparserApplication {
 
-  private static final String LATEST_VERSION="5.4-beta";
+  private static final String LATEST_VERSION = "5.4-beta";
 
   @Value("${ventureplan.unprocessed_log_folder}")
   private String logFolder;
@@ -60,7 +60,7 @@ public class VentureplanLogparserApplication {
             try {
               MissionReport missionReport = mapper.readValue(mission, new TypeReference<>() {});
               if (!LATEST_VERSION.equals(missionReport.getAddonVersion())) {
-                  continue;
+                continue;
               }
 
               boolean newLogCreated = missionService.save(missionReport, mission);

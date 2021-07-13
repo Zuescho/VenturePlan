@@ -1,7 +1,7 @@
-create view bad_predictions_by_missions as
+create view bad_predictions as
 select distinct bad_predictions.mission_id,
-                bad_predictions.bad_predictions,
-                english_report.mission_name
+                english_report.mission_name,
+                bad_predictions.bad_predictions
 from (select mission_id,
              count(mission_id) as bad_predictions,
              addon_version
