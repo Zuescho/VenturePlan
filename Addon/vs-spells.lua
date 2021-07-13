@@ -404,7 +404,7 @@ T.KnownSpells = {
 	[339]={type="nuke", target="all-enemies", damageATK=120, firstTurn=3}, --Cannon Barrage
 	[340]={type="nuke", target=1, damageATK=60}, --Tainted Bite (UNVERIFIED)
 	[341]={type="aura", target=1, damageATK1=120, duration=3, plusDamageTakenATK=20}, --Tainted Bite
-	[342]={type="aura", target=0, duration=2, damageATK1=100, plusDamageDealtATK=-70}, --Regurgitated Meal
+	[342]={type="aura", target=0, duration=1, damageATK1=100, plusDamageDealtATK=-70}, --Regurgitated Meal
 	[343]={
 		{type="nuke", target="enemy-front", damageATK=80},
 		{type="aura", target=4, duration=1, modDamageDealt=20},
