@@ -369,7 +369,7 @@ T.KnownSpells = {
 		{type="aura", target=3, duration=2, modMaxHPATK=40},
 	}, --Wings of Mending (UNVERIFIED)
 	[312]={type="nuke", target="cone", damageATK=180}, --Panoptic Beam (UNVERIFIED)
-	[313]={type="heal", target="all-allies", healATK=70}, --Spirit's Guidance (UNVERIFIED)
+	[313]={type="passive", target="all-allies", healATK=70}, --Spirit's Guidance (UNVERIFIED)
 	[314]={
 		{type="heal", target=3, healATK=130},
 		{type="aura", target=3, duration=2, plusDamageDealtATK=50},
@@ -385,10 +385,7 @@ T.KnownSpells = {
 		{type="nuke", target=0, damageATK=80, selfHealATK=80},
 		{type="aura", target=4, duration=1, modMaxHPATK=80},
 	}, --Balance In All Things (UNVERIFIED)
-	[323]={
-		{type="nuke", target="enemy-back", damageATK=40},
-		{type="aura", target="enemy-back", duration=2, modDamageDealt=-10},
-	}, --Anima Shatter (UNVERIFIED)
+	[323]={type="aura", target="enemy-back", duration=2, damageATK1=40, modDamageDealt=-10}, --Anima Shatter (UNVERIFIED)
 	[324]={type="heal", target="friend-surround", healATK=120}, --Protective Parasol (UNVERIFIED)
 	[325]={type="aura", target="friend-surround", duration=2, modDamageDealt=60}, --Vision of Beauty
 	[326]={type="nuke", target="cleave", damageATK=25}, --Shiftless Smash
@@ -407,10 +404,7 @@ T.KnownSpells = {
 	[339]={type="nuke", target="all-enemies", damageATK=120, firstTurn=3}, --Cannon Barrage
 	[340]={type="nuke", target=1, damageATK=60}, --Tainted Bite (UNVERIFIED)
 	[341]={type="aura", target=1, damageATK1=120, duration=3, plusDamageTakenATK=20}, --Tainted Bite
-	[342]={
-		{type="nuke", target=0, damageATK=100},
-		{type="aura", target=0, duration=2, plusDamageDealtATK=-70},
-	}, --Regurgitated Meal
+	[342]={type="aura", target=0, duration=2, damageATK1=100, plusDamageDealtATK=-70}, --Regurgitated Meal
 	[343]={
 		{type="nuke", target="enemy-front", damageATK=80},
 		{type="aura", target=4, duration=1, modDamageDealt=20},
@@ -419,9 +413,6 @@ T.KnownSpells = {
 	[345]={type="aura", target="all-allies" , duration=3 , plusDamageTakenATK=-30}, --Protective Wings (Bugged in data maybe? Description wording applies modDamageDealt.)
 	[346]={type="aura", target=0, duration=2, damageATK1=30, plusDamageDealtATK=1}, --Heel Bite (BUGGED: Should be modDamageDealt=-1. It isn't.)
 	[347]={type="nuke", target="cone", damageATK=100}, --Darkness from Above
-	[348]={
-		{type="nuke", target=1, damageATK=120},
-		{type="aura", target=1, duration=3, plusDamageTakenATK=20},
-	}, --Tainted Bite
+	[348]={type="aura", target=1, duration=3, damageATK1=120, plusDamageTakenATK=20}, --Tainted Bite
 	[349]={type="nuke", target="all-enemies", damageATK=10}, --Anima Swell
 }
