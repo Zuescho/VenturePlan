@@ -136,7 +136,7 @@ T.KnownSpells = {
 	[119]={type="nuke", target="cone", damageATK=100},
 	[120]={type="aura", target="random-enemy", modDamageDealt=50, duration=2},
 	[121]={type="aura", target="all-enemies", modDamageDealt=-50, duration=1},
-	[122]={type="aura", target="random-enemy", duration=0, echo=3, noFirstTick=true, damageATK=30},
+	[122]={type="nop"}, -- Broken on Blizzard's end and never fires because the duration is 0
 	[123]={type="heal", target="friend-front-soft", healATK=30},
 	[124]={type="nuke", target="cleave", damageATK=60},
 	[125]={type="nuke", target="random-enemy", damageATK=60},
